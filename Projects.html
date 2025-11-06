@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="projects.js"></script>
+</head>
+
+<body class="bg-black text-white">
+
+    <nav class="navbar navbar-dark bg-dark p-2">
+        <div class="container-fluid d-flex align-items-center">
+            <a class="navbar-brand d-flex align-items-center me-3" href="#">
+                <img class="rounded" src="minecraft-icon.png" alt="logo" width="70" height="70" data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-title="hier staan mijn favorite projecten.">
+            </a>
+
+            <ul class="navbar-nav d-flex flex-row justify-content-evenly flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        data-bs-theme="dark" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Contact form</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Naam:</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name">
+
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+
+                            <label for="company-name" class="form-label">your company</label>
+                            <input type="text" class="form-control" id="company-name" aria-describedby="company-name">
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <input type="text" class="form-control" id="message">
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">Send</button>
+                        <div class="modal-footer d-flex justify-content-start">
+                            <p>my phone nummber: +31 6 53 42 76 70</p>
+                            <p>my email: hendrik0ket@gmail.com</p>
+                            <p>my linkedin: <a href="https://www.linkedin.com/in/hendrik-ket-853652388/">linkedin</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <h1 class="d-flex justify-content-center mt-4">Projects</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 my-3">
+                <div class="card">
+                    <img src="tintfall.png"
+                        class="card-img-top" width="480" height="350" alt="i am here">
+                    <div class="card-body">
+                        <p class="card-text">tintfall</p>
+                        <p class="card-text">een spel over een robot die moet overleven in een futurele apocolypse</p>
+                        <a class="btn btn-outline-secondary mt-4" href="">leesmeer</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 my-3">
+                <div class="card">
+                    <img src="sillygray.png"
+                        class="card-img-top" width="480" height="350" alt="to be or not to be">
+                    <div class="card-body">
+                        <p class="card-text">Portfolio</p>
+                        <p class="card-text">een persoonlijke portfolio waar ik laat zien wat mijn skills en wat mijn projecten zijn.</p>
+                        <a class="btn btn-outline-secondary mt-4" href="">leesmeer</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 my-3">
+                <div class="card">
+                    <img src="https://cdn.dribbble.com/userupload/3875672/file/original-42f52449520e8e7940c668566888d84f.png?resize=752x&vertical=center"
+                        class="card-img-top" width="480" height="350" alt="very nice">
+                    <div class="card-body">
+                        <p class="card-text">pokedex</p>
+                        <p class="card-text">een pokedex waar je ales over pokemons kan vinden</p>
+                        <a class="btn btn-outline-secondary mt-4" href="">leesmeer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 my-3">
+
+                <div class="card">
+                    <img src="slamo.png"
+                        class="card-img-top" width="480" height="350" alt="to you">
+                    <div class="card-body">
+                        <p class="card-text">Slamo discord bot</p>
+                        <p class="card-text">een discord bot die van ales kan gemaakt met N8N</p>
+                        <a class="btn btn-outline-secondary mt-4" href="">leesmeer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+</body>
+
+</html>
